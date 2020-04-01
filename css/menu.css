@@ -1,0 +1,154 @@
+.menu_ul {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 140px;
+}
+
+.week_li {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #606060;
+  font-weight: 700;
+  cursor: pointer;
+}
+.week_li p:nth-child(1) {
+  margin-bottom: 5px;
+}
+
+.week_check {
+  color: #fff;
+  background-color: #202020;
+  border-radius: 50%;
+}
+
+.thema_li {
+  margin-top: 7px;
+  padding: 15px;
+  color: #606060;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.thema_check {
+  color: #fff;
+  background-color: #202020;
+  border-radius: 30px;
+}
+
+.menu_container {
+  width: 100%;
+  border-top: 1px solid #e0e0e0;
+
+  padding-top: 50px;
+  position: relative;
+}
+
+.menu_container .delivery_container {
+  width: 100%;
+}
+
+.delivery_container .delivery_date,
+.thema_concept {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.delivery_container .delivery_end,
+.thema_end {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 15px 0 30px;
+}
+
+.delivery_menus .menus_menu,
+.thema_menus .menus_menu {
+  display: inline-block;
+  width: calc(100% / 4 - 26.5px);
+  margin-right: 35px;
+  margin-bottom: 150px;
+}
+
+.delivery_menus .menus_menu:nth-child(4n),
+.thema_menus .menus_menu:nth-child(4n) {
+  margin-right: 0;
+}
+
+.delivery_menus .menus_img,
+.thema_menus .menus_img {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.menus_menu .menus_people,
+.menus_menu .menus_cook {
+  font-size: 13px;
+  color: #606060;
+  margin-right: 15px;
+}
+
+.menus_menu .spicy_img {
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/icon.png");
+  background-repeat: no-repeat;
+  background-size: 800px 800px;
+  float: right;
+}
+
+.menus_menu .spicy {
+  font-size: 13px;
+  color: #606060;
+  float: right;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+
+.menus_menu .spicy_img2 {
+  background-position: -84px 0;
+}
+.menus_menu .spicy_img3 {
+  background-position: -104px 0;
+}
+.menus_menu .spicy_img4 {
+  background-position: -124px 0;
+}
+
+.menus_menu .menus_name,
+.menus_menu .menus_price {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.menus_menu .hotdeal {
+  color: red;
+  margin-right: 10px;
+}
+
+.menu_container .thema_container {
+  width: 100%;
+}
+
+.menu_btn {
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_btn span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #202020;
+  color: white;
+  font-size: 16px;
+}

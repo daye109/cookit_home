@@ -1,0 +1,148 @@
+.footer {
+  max-width: 1920px;
+  min-width: 1240px;
+  background-color: #202020;
+  height: 210px;
+  clear: both;
+}
+
+.footer > div {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.footer .footer_column {
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  float: left;
+  padding-top: 50px;
+}
+
+.footer_column.footer_column_left {
+  width: 300px;
+}
+.footer_column.footer_column_center {
+  width: 650px;
+}
+.footer_column.footer_column_right {
+  float: right;
+}
+
+.footer_column_left .footer_logo {
+  display: block;
+  width: 160px;
+  height: 48px;
+  background: url("../images/ico_set.png") -320px -320px no-repeat;
+  background-size: 800px 800px;
+  margin-bottom: 40px;
+}
+
+.footer_column_left .footer_copyright {
+  color: #838383;
+}
+
+.footer_column_center .footer_service {
+  padding-bottom: 15px;
+}
+
+.footer_service .service_list {
+  padding-right: 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.footer_column_center p {
+  display: inline-block;
+  padding: 15px 10px 0 0;
+  color: #838383;
+}
+
+.footer_column_right > * {
+  display: block;
+  padding-bottom: 20px;
+  float: right;
+  clear: both;
+}
+
+.footer_column_right .footer_box_btn {
+  font-size: 12px;
+}
+
+.footer_box_btn i {
+  cursor: pointer;
+  padding-left: 5px;
+}
+
+.footer_column_right .footer_tel {
+  font-size: 16px;
+}
+
+.footer_column_right .footer_inquery {
+  display: inline-block;
+  border: 1px solid;
+  padding: 10px 20px;
+}
+
+/* link box */
+
+.footer_link_box {
+  clear: both;
+  max-width: 1920px;
+  min-width: 1240px;
+  width: 100%;
+  background-color: #f7f7f7;
+  height: 180px;
+  position: absolute;
+  bottom: 210px;
+}
+
+.footer_link_box > div {
+  width: 1180px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footer_link_box .box_list {
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+}
+
+.box_list:nth-child(1) {
+  right: 780px;
+}
+.box_list:nth-child(2) {
+  right: 620px;
+}
+.box_list:nth-child(3) {
+  right: 460px;
+}
+.box_list:nth-child(4) {
+  right: 320px;
+}
+.box_list:nth-child(5) {
+  right: 140px;
+}
+.box_list:nth-child(6) {
+  right: 0;
+}
+
+.box_list .box_title {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.box_list .box_link {
+  display: block;
+  font-size: 12px;
+  color: #707070;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.box_list .box_link:last-child {
+  padding-bottom: 0;
+}

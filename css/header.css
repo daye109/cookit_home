@@ -1,0 +1,73 @@
+.header {
+  max-width: 1920px;
+  min-width: 1240px;
+  border-bottom: 1px solid #ccc;
+}
+
+.header .header_nav_up {
+  background-color: #202020;
+  height: 35px;
+  padding: 10px 40px;
+}
+
+.header_nav_up .nav_up_list {
+  font-size: 12px;
+  margin-left: 20px;
+  color: white;
+  font-weight: 700;
+  float: right;
+}
+
+.header_nav_down {
+  padding: 24px 40px 0;
+  background-color: #ffffff;
+  height: 80px;
+  position: relative;
+}
+
+.header_column:nth-child(1) {
+  position: absolute;
+  top: 24px;
+  left: 40px;
+}
+
+.header_column:nth-child(2) {
+  text-align: center;
+}
+
+.header_column:nth-child(3) {
+  position: absolute;
+  top: 21px;
+  right: 40px;
+}
+
+.header_nav_down .header_logo {
+  display: block;
+  width: 100px;
+  height: 30px;
+  background: url("../images/ico_set.png") -320px -385px no-repeat;
+  background-size: 800px 800px;
+}
+
+.header_nav_down .header_menu_list {
+  display: inline-block;
+  padding: 7px 20px 0;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+.header_nav_down .header_cart,
+.header_nav_down .header_search {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.header_nav_down .header_cart i,
+.header_nav_down .header_search i {
+  padding-bottom: 7px;
+  font-size: 23px;
+}

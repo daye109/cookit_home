@@ -1,0 +1,8 @@
+.intro_bg {
+  max-width: 1920px;
+  min-width: 1240px;
+  height: 640px;
+  background: url("../images/intro/intro.jpg");
+  background-size: cover;
+  background-position-x: -550px;
+}

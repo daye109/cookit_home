@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ce55f2c361.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Event | Cookit</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <a href="#" class="topup"></a>
+      <header class="header">
+        <div class="header_nav_up">
+          <a href="#" class="nav_up_list">회원가입</a>
+          <a href="#" class="nav_up_list">로그인</a>
+          <a href="#" class="nav_up_list">고객행복센터</a>
+          <a href="#" class="nav_up_list">배송지역검색</a>
+          <a href="#" class="nav_up_list">기프트카드 등록</a>
+        </div>
+        <ul class="header_nav_down">
+          <li class="header_column">
+            <a href="./index.html" class="header_logo"></a>
+          </li>
+          <li class="header_column">
+            <a href="./intro.html" class="header_menu_list">COOKIT소개</a>
+            <a href="./menu.html" class="header_menu_list">COOKIT메뉴</a>
+            <a href="./review.html" class="header_menu_list">리뷰</a>
+            <a href="./event.html" class="header_menu_list">이벤트</a>
+            <a href="./my.html" class="header_menu_list">MY쿡킷</a>
+          </li>
+          <li class="header_column">
+            <a href="#" class="header_cart"
+              ><i class="fas fa-shopping-cart"></i> <span>장바구니</span></a
+            >
+            <a href="#" class="header_search">
+              <i class="fas fa-search"></i><span>메뉴찾기</span></a
+            >
+          </li>
+        </ul>
+      </header>
+      <div class="main sub_main">
+        <h1 class="main_title">이벤트</h1>
+        <span class="common_button button_select" id="js_ongoing_btn"
+          >진행중</span
+        >
+        <span class="common_button" id="js_winner_btn">당첨자 발표</span>
+        <div class="event_container">
+          <div class="event_box ongoing_container ">
+            <a href="#" class="ongoing">
+              <img src="./images/event/event1.jpg" alt="valentine event" />
+              <p class="ongoing_day">2020.02.06 ~ 2020.02.14</p>
+              <p class="ongoing_name">[쿡킷] 2월 밸렌타인 데이 에디션</p>
+            </a>
+            <a href="#" class="ongoing">
+              <img src="./images/event/event2.jpg" alt="장보기 이벤트" />
+              <p class="ongoing_day">2020.01.29 ~ 2020.02.17</p>
+              <p class="ongoing_name">[쿡킷] 장보기 스트레스 아웃 기획전</p>
+            </a>
+            <a href="#" class="ongoing">
+              <img src="./images/event/event3.jpg" alt="첫구매 할인 이벤트" />
+              <p class="ongoing_day">2019.06.24 ~ 2020.02.20</p>
+              <p class="ongoing_name">
+                첫구매시 무료배송 & 최대 만원 할인쿠폰 혜택
+              </p>
+            </a>
+            <a href="#" class="ongoing">
+              <img src="./images/event/event4.jpg" alt="스탬프 할인 이벤트" />
+              <p class="ongoing_day">2019.06.24 ~ 2020.02.20</p>
+              <p class="ongoing_name">3번 살때마다 혜택! 쿡킷 스탬프</p>
+            </a>
+            <a href="#" class="ongoing">
+              <img src="./images/event/event5.jpg" alt="신한카드 이벤트" />
+              <p class="ongoing_day">2020.02.01 ~ 2020.02.15</p>
+              <p class="ongoing_name">신한카드 💳 1만원 청구할인</p>
+            </a>
+          </div>
+          <div class="event_box winner_container disnone">
+            <i class="fas fa-exclamation"></i>
+            <p>당첨자 발표 내역이 없습니다.</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer_link_box disnone ">
+        <div>
+          <div class="box_list">
+            <h5 class="box_title">CJ그룹</h5>
+            <a href="#" class="box_link">CJ주식회사</a>
+          </div>
+          <div class="box_list">
+            <h5 class="box_title">식품&식품서비스</h5>
+            <a href="#" class="box_link">CJ제일제당 (식품)</a>
+            <a href="#" class="box_link">CJ푸드빌</a>
+            <a href="#" class="box_link">CJ프레시웨이</a>
+            <a href="#" class="box_link">CJ엠디원</a>
+          </div>
+          <div class="box_list">
+            <h5 class="box_title">생명공학</h5>
+            <a href="#" class="box_link">CJ제일제당 (바이오)</a>
+          </div>
+          <div class="box_list">
+            <h5 class="box_title">신유통</h5>
+            <a href="#" class="box_link">CJ ENM (오쇼핑)</a>
+            <a href="#" class="box_link">CJ대한통운</a>
+            <a href="#" class="box_link">CJ텔레닉스</a>
+            <a href="#" class="box_link">CJ올리브영</a>
+          </div>
+          <div class="box_list">
+            <h5 class="box_title">엔터테인먼트&미디어</h5>
+            <a href="#" class="box_link">CJ ENM(E&M)</a>
+            <a href="#" class="box_link">CJ CGV</a>
+            <a href="#" class="box_link">CJ파워캐스트</a>
+          </div>
+          <div class="box_list">
+            <h5 class="box_title">인프라</h5>
+            <a href="#" class="box_link">CJ대한통운 (건설)</a>
+            <a href="#" class="box_link">CJ파워캐스트</a>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div>
+          <div class="footer_column footer_column_left">
+            <a href="#" class="footer_logo"></a>
+            <span class="footer_copyright"
+              >©2020. kdy-kdy All rights reserved</span
+            >
+          </div>
+          <div class="footer_column footer_column_center">
+            <div class="footer_service">
+              <a href="#" class="service_list">이용약관</a>
+              <a href="#" class="service_list">개인정보처리 방침</a>
+              <a href="#" class="service_list">법적고지</a>
+              <a href="#" class="service_list">사업자정보 확인</a>
+            </div>
+            <div class="footer_info">
+              <p class="info_content">씨제이제일제당(주)</p>
+              <p class="info_content">대표이사 : 손경식,강신호,신현재</p>
+              <p class="info_content">사업자등록번호 : 104-86-09535</p>
+              <br />
+              <p class="info_content">
+                주소 : 서울 중구 동호로 330 CJ제일제당 센터 (우) 04560
+              </p>
+              <p class="info_content">통신판매업신고 중구 제 07767호</p>
+              <p class="info_content">개인정보보호책임자 : 조영민</p>
+              <br />
+              <p class="info_content">이메일 : cjon@cj.net</p>
+              <p class="info_content">호스팅제공자 : CJ올리브네트웍스㈜</p>
+            </div>
+          </div>
+          <div class="footer_column footer_column_right">
+            <div class="footer_box_btn">
+              <span class="footer_shortcut">CJ그룹계열사 바로가기</span>
+              <i class="fas fa-chevron-down footer_btn_down"></i>
+              <i class="fas fa-chevron-up footer_btn_up disnone"></i>
+            </div>
+            <span class="footer_tel">고객행복센터1668-1920</span>
+            <a href="#" class="footer_inquery"><span>1:1문의</span></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./javascript/topup.js"></script>
+    <script src="./javascript/event.js"></script>
+    <script src="./javascript/footer.js"></script>
+  </body>
+</html>

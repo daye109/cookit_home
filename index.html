@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ce55f2c361.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Home | Cookit</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <a href="#" class="topup"></a>
+    <div class="wrap">
+      <header class="header">
+        <div class="header_nav_up">
+          <a href="#" class="nav_up_list">회원가입</a>
+          <a href="#" class="nav_up_list">로그인</a>
+          <a href="#" class="nav_up_list">고객행복센터</a>
+          <a href="#" class="nav_up_list">배송지역검색</a>
+          <a href="#" class="nav_up_list">기프트카드 등록</a>
+        </div>
+        <ul class="header_nav_down">
+          <li class="header_column">
+            <a href="./index.html" class="header_logo"></a>
+          </li>
+          <li class="header_column">
+            <a href="./intro.html" class="header_menu_list">COOKIT소개</a>
+            <a href="./menu.html" class="header_menu_list">COOKIT메뉴</a>
+            <a href="./review.html" class="header_menu_list">리뷰</a>
+            <a href="./event.html" class="header_menu_list">이벤트</a>
+            <a href="./my.html" class="header_menu_list">MY쿡킷</a>
+          </li>
+          <li class="header_column">
+            <a href="#" class="header_cart"
+              ><i class="fas fa-shopping-cart"></i> <span>장바구니</span></a
+            >
+            <a href="#" class="header_search">
+              <i class="fas fa-search"></i><span>메뉴찾기</span></a
+            >
+          </li>
+        </ul>
+      </header>
+      <div class="main">
+        <section class="main_slide">
+          <article class="slide_container">
+            <div class="slide slide1">
+              <div class="slide_info_container">
+                <h3 class="slide_subtitle">1/30 신메뉴 출시</h3>
+                <h1 class="slide_title">통통한 새우가 퐁당<br />쿵팟퐁커리</h1>
+                <i class="far fa-user"></i>
+                <p class="slide_people">3인분</p>
+                <i class="far fa-clock"></i>
+                <p class="slide_time">조리 20분<br /></p>
+                <p class="slide_price">20,800원</p>
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+            </div>
+            <div class="slide slide2">
+              <div class="slide_info_container">
+                <h3 class="slide_subtitle">2/03 신메뉴 출시</h3>
+                <h1 class="slide_title">맛과 영양만점<br />닭한마리 칼국수</h1>
+                <i class="far fa-user"></i>
+                <p class="slide_people">3인분</p>
+                <i class="far fa-clock"></i>
+                <p class="slide_time">조리 40분<br /></p>
+                <p class="slide_price">22,800원</p>
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+            </div>
+            <div class="slide slide3">
+              <div class="slide_info_container">
+                <h3 class="slide_subtitle">1/20 신메뉴 출시</h3>
+                <h1 class="slide_title">국물이 일품<br />얼큰시원 알탕</h1>
+                <i class="far fa-user"></i>
+                <p class="slide_people">3인분</p>
+                <i class="far fa-clock"></i>
+                <p class="slide_time">조리 20분<br /></p>
+                <p class="slide_price">24,800원</p>
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+            </div>
+            <div class="slide slide4">
+              <div class="slide_info_container">
+                <h3 class="slide_subtitle">1/16 신메뉴 출시</h3>
+                <h1 class="slide_title">
+                  찐한 크림소스에 푹<br />빠네크림파스타
+                </h1>
+                <i class="far fa-user"></i>
+                <p class="slide_people">2인분</p>
+                <i class="far fa-clock"></i>
+                <p class="slide_time">조리 25분<br /></p>
+                <p class="slide_price">20,800원</p>
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+            </div>
+            <div class="slide slide5">
+              <div class="slide_info_container">
+                <h3 class="slide_subtitle">1/13 신메뉴 출시</h3>
+                <h1 class="slide_title">
+                  잔칫날 빠질수 없는<br />소고기듬뿍 버섯잡채
+                </h1>
+                <i class="far fa-user"></i>
+                <p class="slide_people">3인분</p>
+                <i class="far fa-clock"></i>
+                <p class="slide_time">조리 25분<br /></p>
+                <p class="slide_price">24,800원</p>
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+            </div>
+          </article>
+          <div class="slide_btn">
+            <i class="fas fa-arrow-left prev_btn"></i>
+            <span class="slide_number">1/5</span>
+            <i class="fas fa-arrow-right next_btn"></i>
+          </div>
+        </section>
+        <section class="main_question">
+          <a href="#" class="question">
+            <div class="question_txt">
+              <h2>우리집도 COOKIT 배송이 되나요?</h2>
+              <p>배송이 가능한지 알려드려요.</p>
+              <div class="question_location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>배송지 검색</span>
+              </div>
+            </div>
+            <div class="question_img delivery_img"></div>
+          </a>
+          <a href="#" class="question">
+            <div class="question_txt">
+              <h2>우리집도 COOKIT 배송이 되나요?</h2>
+              <p>배송이 가능한지 알려드려요.</p>
+              <div class="question_location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>배송지 검색</span>
+              </div>
+            </div>
+            <div class="question_img time_img"></div>
+          </a>
+        </section>
+        <section class="main_recommend">
+          <div class="recommend_row">
+            <h1 class="recommend_title">매콤한맛</h1>
+            <p class="recommend_text">메뉴<br />추천드려요</p>
+
+            <p class="recommend_subtext">
+              <a href="./my.html" class="recommend_login">로그인</a>하시면
+              고객님의 구매내역과<br />맛취향에 따라 딱맞는 맛있는 메뉴를
+              추천드려요
+            </p>
+          </div>
+          <div class="recommend_row"></div>
+          <div class="recommend_row"></div>
+          <div class="recommend_row">
+            <p class="recommend_name">남한산성식 닭볶음탕</p>
+            <span class="recommend_price">24,800원</span>
+            <span class="recommend_people">/ 3인분</span>
+          </div>
+          <a href="#" class="recommend_row"
+            ><i class="fas fa-shopping-cart"></i
+          ></a>
+        </section>
+        <section class="main_banner">
+          <div class="banner_slide_container">
+            <a href="#" class="banner banner_slide1"></a>
+            <a href="#" class="banner banner_slide2"></a>
+            <a href="#" class="banner banner_slide3"></a>
+            <a href="#" class="banner banner_slide4"></a>
+          </div>
+        </section>
+        <section class="main_best">
+          <h1>실시간 베스트</h1>
+          <div class="best_container">
+            <div class="best">
+              <div class="best_img best_img1"></div>
+              <div class="best_number">
+                <span>BEST<br />01</span>
+              </div>
+              <p class="best_name">얼큰시원 알탕</p>
+              <span class="best_price">20,800원</span>
+              <span class="best_people"> / 2인분</span>
+              <a href="#" class="best_cart"
+                ><i class="fas fa-shopping-cart"></i
+              ></a>
+            </div>
+            <div class="best">
+              <div class="best_img best_img2"></div>
+              <div class="best_number">
+                <span>02</span>
+              </div>
+              <p class="best_name">부채살 찹스테이크</p>
+              <span class="best_price">24,800원</span>
+              <span class="best_people"> / 3인분</span>
+              <a href="#" class="best_cart"
+                ><i class="fas fa-shopping-cart"></i
+              ></a>
+            </div>
+            <div class="best">
+              <div class="best_img best_img3"></div>
+              <div class="best_number">
+                <span>03</span>
+              </div>
+              <p class="best_name">밀푀유나베</p>
+              <span class="best_price">20,800원</span>
+              <span class="best_people"> / 3인분</span>
+              <a href="#" class="best_cart"
+                ><i class="fas fa-shopping-cart"></i
+              ></a>
+            </div>
+            <div class="best">
+              <div class="best_img best_img4"></div>
+              <div class="best_number">
+                <span>04</span>
+              </div>
+              <p class="best_name">감바스알아히요</p>
+              <span class="best_price">22,800원</span>
+              <span class="best_people"> / 3인분</span>
+              <a href="#" class="best_cart"
+                ><i class="fas fa-shopping-cart"></i
+              ></a>
+            </div>
+            <div class="best">
+              <div class="best_img best_img5"></div>
+              <div class="best_number">
+                <span>05</span>
+              </div>
+              <p class="best_name">닭한마리와 칼국수</p>
+              <span class="best_price">20,800원</span>
+              <span class="best_people"> / 3인분</span>
+              <a href="#" class="best_cart"
+                ><i class="fas fa-shopping-cart"></i
+              ></a>
+            </div>
+            <div class="best">
+              <div class="best_img best_img6"></div>
+              <div class="best_number">
+                <span>06</span>
+              </div>
+              <p class="best_name">쿵팟퐁커리</p>
+              <span class="best_price">20,800원</span>
+              <span class="best_people"> / 2인분</span>
+              <a href="#" class="best_cart"
+                ><i class="fas fa-shopping-cart"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+        <section class="main_reviews">
+          <h1>생생한 리뷰</h1>
+          <div class="reviews_container">
+            <div class="reviews_review review1">
+              <h3 class="review_name">부채살 찹스테이크</h3>
+              <p class="review_text">
+                안에 들어있는 재료는 너무 신선해용<br />고기와 버섯과 파프리카
+                같이 먹으면<br />맛 실화인가요??조리도 너무 간단해요
+              </p>
+              <p class="review_id">by.gks******</p>
+            </div>
+            <div class="reviews_review review2">
+              <h3 class="review_name">밀푀유나베</h3>
+              <p class="review_text">
+                리뷰보고 구매하였어요!맛있게 신선<br />하게 편하게 한끼 해결했고
+                새벽배송<br />으로 받아볼 수 있어서 더 좋았습니다
+              </p>
+              <p class="review_id">by.kik***</p>
+            </div>
+            <div class="reviews_review review3">
+              <h3 class="review_name">감바스알아히요</h3>
+              <p class="review_text">
+                새우가 토실토실 정말 크고 좋네요<br />재료가 어쩜그리 싱싱하고
+                깔끔하게<br />오는지 선물 받은 기분이네요^^♡
+              </p>
+              <p class="review_id">by.har*****</p>
+            </div>
+            <div class="reviews_review review4">
+              <h3 class="review_name">*우삼겹쌀국수</h3>
+              <p class="review_text">
+                전문점에서 테이크아웃해왔다고 해도<br />믿을 비주얼ㅋㅋ 말이
+                필요없네요~<br />국물맛이 끝내줘요!~~
+              </p>
+              <p class="review_id">by.myl******</p>
+            </div>
+            <div class="reviews_review review5">
+              <h3 class="review_name">빠네크림파스타</h3>
+              <p class="review_text">
+                기대 이상상상상!!소스도 차고 넘쳐서<br />빵 다 쓱싹 발라서
+                먹구요 날치알이<br />신의한수! 입에서 톡톡!식감예술이에요
+              </p>
+              <p class="review_id">by.uzz****</p>
+            </div>
+          </div>
+          <div class="reviews_img_container">
+            <div class="review_img review_img1"></div>
+            <div class="review_img review_img2"></div>
+            <div class="review_img review_img3"></div>
+            <div class="review_img review_img4"></div>
+            <div class="review_img review_img5"></div>
+          </div>
+          <div class="reviews_number">
+            <i class="fas fa-arrow-left review_btn_l"></i>
+            <span class="review_number">1/5</span>
+            <i class="fas fa-arrow-right review_btn_r"></i>
+          </div>
+          <div class="review_opacity"></div>
+          <a href="#" class="review_view">View All</a>
+          <div class="review_grape"></div>
+        </section>
+        <section class="main_menu_all">
+          <div class="menu_row">
+            <div class="menu_img_big premium_img_big"></div>
+            <h1>쿡킷 메뉴보기<br />Premium Mealkit</h1>
+            <p>
+              장보기, 재료손질, 레시피검색 <strong>번거로움 OUT!</strong><br />
+              초간편함은 물론, 완벽한 맛 쿡킷이 다~ 했네
+            </p>
+            <div class="menu_container">
+              <div class="main_menu">
+                <div class="main_menu_img">
+                  <img src="./images/home/menu/menu1.png" alt="" />
+                </div>
+                <div class="main_menu_text">
+                  <p>칠리&크림 반반새우</p>
+                  <span>26,800원</span>
+                  <span class="main_menu_people"> / 3인분</span>
+                </div>
+                <a href="#" class="main_menu_cart"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </div>
+              <div class="main_menu">
+                <div class="main_menu_img">
+                  <img src="./images/home/menu/menu2.png" alt="" />
+                </div>
+                <div class="main_menu_text">
+                  <p>닭한마리와 칼국수</p>
+                  <span>22,800원</span>
+                  <span class="main_menu_people"> / 3인분</span>
+                </div>
+                <a href="#" class="main_menu_cart"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </div>
+              <div class="main_menu">
+                <div class="main_menu_img">
+                  <img src="./images/home/menu/menu3.png" alt="" />
+                </div>
+                <div class="main_menu_text">
+                  <p>쿵팟퐁커리</p>
+                  <span>20,800원</span>
+                  <span class="main_menu_people"> / 3인분</span>
+                </div>
+                <a href="#" class="main_menu_cart"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </div>
+              <div class="main_menu">
+                <div class="main_menu_img">
+                  <img src="./images/home/menu/menu4.png" alt="" />
+                </div>
+                <div class="main_menu_text">
+                  <p>빠네크림파스타</p>
+                  <span>20,800원</span>
+                  <span class="main_menu_people"> / 2인분</span>
+                </div>
+                <a href="#" class="main_menu_cart"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </div>
+              <div class="main_menu">
+                <div class="main_menu_img">
+                  <img src="./images/home/menu/menu5.png" alt="" />
+                </div>
+                <div class="main_menu_text">
+                  <p>소고기듬뿍 버섯잡채</p>
+                  <span>24,800원</span>
+                  <span class="main_menu_people"> / 3인분</span>
+                </div>
+                <a href="#" class="main_menu_cart"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </div>
+              <div class="main_menu">
+                <div class="main_menu_img">
+                  <img src="./images/home/menu/menu6.png" alt="" />
+                </div>
+                <div class="main_menu_text">
+                  <p>우삼겹쌀국수</p>
+                  <span>24,800원</span>
+                  <span class="main_menu_people"> / 3인분</span>
+                </div>
+                <a href="#" class="main_menu_cart"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </div>
+              <div class="main_menu">
+                <div class="main_menu_img">
+                  <img src="./images/home/menu/menu7.png" alt="" />
+                </div>
+                <div class="main_menu_text">
+                  <p>버섯소불고기</p>
+                  <span>23,800원</span>
+                  <span class="main_menu_people"> / 3인분</span>
+                </div>
+                <a href="#" class="main_menu_cart"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </div>
+              <div class="main_menu">
+                <div class="main_menu_img">
+                  <img src="./images/home/menu/menu8.png" alt="" />
+                </div>
+                <div class="main_menu_text">
+                  <p>소고기두부전골</p>
+                  <span>24,800원</span>
+                  <span class="main_menu_people"> / 3인분</span>
+                </div>
+                <a href="#" class="main_menu_cart"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </div>
+              <div class="main_menu">
+                <div class="main_menu_img">
+                  <img src="./images/home/menu/menu9.png" alt="" />
+                </div>
+                <div class="main_menu_text">
+                  <p>소고기 모둠버섯들깨탕</p>
+                  <span>24,800원</span>
+                  <span class="main_menu_people"> / 3인분</span>
+                </div>
+                <a href="#" class="main_menu_cart"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </div>
+              <div class="main_menu">
+                <div class="main_menu_img">
+                  <img src="./images/home/menu/menu10.png" alt="" />
+                </div>
+                <div class="main_menu_text">
+                  <p>궁중떡볶음</p>
+                  <span>20,800원</span>
+                  <span class="main_menu_people"> / 3인분</span>
+                </div>
+                <a href="#" class="main_menu_cart"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </div>
+              <div class="main_menu">
+                <div class="main_menu_img">
+                  <img src="./images/home/menu/menu11.png" alt="" />
+                </div>
+                <div class="main_menu_text">
+                  <p>밀푀유나베</p>
+                  <span>24,800원</span>
+                  <span class="main_menu_people"> / 3인분</span>
+                </div>
+                <a href="#" class="main_menu_cart"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </div>
+              <div class="main_menu">
+                <div class="main_menu_img">
+                  <img src="./images/home/menu/menu12.png" alt="" />
+                </div>
+                <div class="main_menu_text">
+                  <p>부채살 찹스테이크</p>
+                  <span>20,800원</span>
+                  <span class="main_menu_people"> / 2인분</span>
+                </div>
+                <a href="#" class="main_menu_cart"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </div>
+              <div class="main_menu">
+                <div class="main_menu_img">
+                  <img src="./images/home/menu/menu13.png" alt="" />
+                </div>
+                <div class="main_menu_text">
+                  <p>감바스알아히요</p>
+                  <span>20,800원</span>
+                  <span class="main_menu_people"> / 3인분</span>
+                </div>
+                <a href="#" class="main_menu_cart"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="menu_row">
+            <div class="menu_img_big hotdeal_img_big"></div>
+            <h1>놓칠 수 없는 기회<br />오픈 한정 핫딜</h1>
+            <p>
+              파격적인 가격으로<br />
+              쿡킷을 경험할 수 있는 기회를 잡으세요
+            </p>
+            <div class="menu_container">
+              <div class="main_menu">
+                <div class="main_menu_img">
+                  <img src="./images/home/menu/hotdeal1.png" alt="" />
+                </div>
+                <div class="main_menu_text">
+                  <p>속초식 코다리찜</p>
+                  <span>16,800원</span>
+                  <span class="main_menu_people"> / 3인분</span>
+                </div>
+                <a href="#" class="main_menu_cart"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </div>
+              <div class="main_menu">
+                <div class="main_menu_img">
+                  <img src="./images/home/menu/hotdeal2.png" alt="" />
+                </div>
+                <div class="main_menu_text">
+                  <p>맑은민대구탕</p>
+                  <span>20,160원</span>
+                  <span class="main_menu_people"> / 3인분</span>
+                </div>
+                <a href="#" class="main_menu_cart"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </div>
+              <div class="main_menu">
+                <div class="main_menu_img">
+                  <img src="./images/home/menu/hotdeal3.png" alt="" />
+                </div>
+                <div class="main_menu_text">
+                  <p>안동찜닭</p>
+                  <span>17,360원</span>
+                  <span class="main_menu_people"> / 3인분</span>
+                </div>
+                <a href="#" class="main_menu_cart"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="hotdeal_ad"></div>
+          </div>
+        </section>
+      </div>
+      <div class="footer_link_box disnone ">
+        <div>
+          <div class="box_list">
+            <h5 class="box_title">CJ그룹</h5>
+            <a href="#" class="box_link">CJ주식회사</a>
+          </div>
+          <div class="box_list">
+            <h5 class="box_title">식품&식품서비스</h5>
+            <a href="#" class="box_link">CJ제일제당 (식품)</a>
+            <a href="#" class="box_link">CJ푸드빌</a>
+            <a href="#" class="box_link">CJ프레시웨이</a>
+            <a href="#" class="box_link">CJ엠디원</a>
+          </div>
+          <div class="box_list">
+            <h5 class="box_title">생명공학</h5>
+            <a href="#" class="box_link">CJ제일제당 (바이오)</a>
+          </div>
+          <div class="box_list">
+            <h5 class="box_title">신유통</h5>
+            <a href="#" class="box_link">CJ ENM (오쇼핑)</a>
+            <a href="#" class="box_link">CJ대한통운</a>
+            <a href="#" class="box_link">CJ텔레닉스</a>
+            <a href="#" class="box_link">CJ올리브영</a>
+          </div>
+          <div class="box_list">
+            <h5 class="box_title">엔터테인먼트&미디어</h5>
+            <a href="#" class="box_link">CJ ENM(E&M)</a>
+            <a href="#" class="box_link">CJ CGV</a>
+            <a href="#" class="box_link">CJ파워캐스트</a>
+          </div>
+          <div class="box_list">
+            <h5 class="box_title">인프라</h5>
+            <a href="#" class="box_link">CJ대한통운 (건설)</a>
+            <a href="#" class="box_link">CJ파워캐스트</a>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div>
+          <div class="footer_column footer_column_left">
+            <a href="#" class="footer_logo"></a>
+            <span class="footer_copyright"
+              >©2020. kdy-kdy All rights reserved</span
+            >
+          </div>
+          <div class="footer_column footer_column_center">
+            <div class="footer_service">
+              <a href="#" class="service_list">이용약관</a>
+              <a href="#" class="service_list">개인정보처리 방침</a>
+              <a href="#" class="service_list">법적고지</a>
+              <a href="#" class="service_list">사업자정보 확인</a>
+            </div>
+            <div class="footer_info">
+              <p class="info_content">씨제이제일제당(주)</p>
+              <p class="info_content">대표이사 : 손경식,강신호,신현재</p>
+              <p class="info_content">사업자등록번호 : 104-86-09535</p>
+              <br />
+              <p class="info_content">
+                주소 : 서울 중구 동호로 330 CJ제일제당 센터 (우) 04560
+              </p>
+              <p class="info_content">통신판매업신고 중구 제 07767호</p>
+              <p class="info_content">개인정보보호책임자 : 조영민</p>
+              <br />
+              <p class="info_content">이메일 : cjon@cj.net</p>
+              <p class="info_content">호스팅제공자 : CJ올리브네트웍스㈜</p>
+            </div>
+          </div>
+          <div class="footer_column footer_column_right">
+            <div class="footer_box_btn">
+              <span class="footer_shortcut">CJ그룹계열사 바로가기</span>
+              <i class="fas fa-chevron-down footer_btn_down"></i>
+              <i class="fas fa-chevron-up footer_btn_up disnone"></i>
+            </div>
+            <span class="footer_tel">고객행복센터1668-1920</span>
+            <a href="#" class="footer_inquery"><span>1:1문의</span></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./javascript/topup.js"></script>
+    <script src="./javascript/slide.js"></script>
+    <script src="./javascript/footer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+.my_title {
+  text-align: center;
+}
+
+.my_container {
+  width: 480px;
+  margin: 25px auto 0;
+}
+
+.my_container .login_box_container {
+  width: 100%;
+  height: 550px;
+  margin-bottom: 145px;
+  position: relative;
+}
+
+.login_box_container .login_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.login_box .login_input {
+  width: 100%;
+  font-size: 14px;
+  padding: 15px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 8px;
+  color: #808080;
+}
+
+.login_box .my_find {
+  margin-top: 10px;
+  font-size: 13px;
+  float: right;
+  color: #101010;
+  font-weight: 700;
+}
+
+.my_find .find_id {
+  margin-right: 15px;
+}
+
+.login_box .login_admit {
+  display: block;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #bdd61a;
+  color: #101010;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.login_box .social_container {
+  width: 100%;
+  margin: 33px 0 65px;
+  text-align: center;
+}
+
+.social_container .social {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.social_container a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0 10px;
+}
+.social:nth-child(1) a {
+  background-color: #202020;
+}
+.social:nth-child(2) a {
+  background-color: #ffe812;
+  color: #000000;
+}
+.social:nth-child(3) a {
+  background-color: #3860bf;
+}
+
+.my_info_container {
+  width: 100%;
+  padding: 30px 35px;
+  background-color: #f7f7f7;
+}
+
+.my_info_container p {
+  margin-bottom: 10px;
+}
+
+.my_info_container .my_info1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.my_info_container .my_info2 {
+  font-size: 12px;
+  line-height: 20px;
+  color: #606060;
+}
+
+.my_info_container a {
+  display: inline-block;
+  width: 240px;
+  padding: 15px 0;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.my_info_container i {
+  margin-left: 5px;
+}
+
+.member_admit {
+  margin-top: 55px;
+}
+
+.nonmember_admit {
+  margin: 35px 0 43px;
+}
